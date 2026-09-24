@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Maritime Fleet Command Center</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      #root {
+        height: 100vh;
+      }
+      .leaflet-container {
+        height: 100% !important;
+      }
+      .ship-label {
+        font-size: 10px;
+        color: #fff;
+        white-space: nowrap;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+      }
+      .custom-ship-icon {
+        background: transparent !important;
+        box-shadow: none !important;
+      }
+    </style>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased overflow-hidden m-0">
+    <div id="root"></div>
+  </body>
+</html>
